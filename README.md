@@ -7,10 +7,22 @@ This project is being built as part of Hack Club Half Life.
 ## Status
 
 Week 1 — Designing the PCB
-What is it?
-Why am I making it?
-Current status
+# Plant Monitor
 
-How it works
-Schematic
-Components
+## What is it?
+
+## Why am I making it?
+
+## How does it work?
+
+## Hardware
+
+## Schematic
+
+## PCB
+
+## BOM
+
+## Photos
+
+## Build Instructions
