@@ -10,3 +10,7 @@ Week 1 — Designing the PCB
 What is it?
 Why am I making it?
 Current status
+
+How it works
+Schematic
+Components
