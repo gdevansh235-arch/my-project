@@ -35,7 +35,7 @@ The project is being developed step-by-step, from the initial idea and system de
 
 The pin plan is an initial design and must be checked against the exact ESP32 development board before manufacturing.
 
-## 📁 Repository Structure
+## 📁 Repository Structure 
 
 - `docs/` — project documentation and journal
 - `hardware/` — KiCad schematic and PCB files
