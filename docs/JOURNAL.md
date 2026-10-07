@@ -66,7 +66,11 @@ The first design is still an initial schematic. The exact ESP32 board, module fo
 
 Start: 09:00 AM
 End: 11:00 AM
-Time: 2hrs
+
+Start: 03:30 AM
+End: 5:27 AM
+
+Time: 3hrs 57mins
 
 ---
 
