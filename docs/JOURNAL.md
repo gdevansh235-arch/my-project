@@ -36,7 +36,9 @@ I am still learning KiCad and electronics, so I had to understand the basic work
 - Check the power and I²C connections.
 - Start planning the firmware.
 
-Start: 5:30 PM End: 6:58 PM Time: 1hr 28 mins
+Start: 5:30 PM 
+End: 6:58 PM 
+Time: 1hr 28 mins
 
 ---
 
@@ -71,7 +73,7 @@ The first design is still an initial schematic. The exact ESP32 board, module fo
 
 **Start Day 3 — PCB Design.**
 Start: 09:00 AM End: 11:00 AM
-Start: 03:30 AM End: 5:27 AM
+Start: 03:30 PM End: 5:27 PM
 Time: 3hrs 57mins
 
 ---
@@ -116,6 +118,10 @@ The final DRC showed only one remaining warning: a library footprint mismatch fo
 ### Next Step
 
 **Start Day 4 — BOM and vendor research.**
+
+
+Start: 03:00 PM End: 5:00 PM
+Time: 2hrs
 
 ---
 
