@@ -32,6 +32,10 @@ I am still learning KiCad and electronics, so I had to understand the basic work
 * Check the power and I²C connections.
 * Start planning the firmware.
 
+Start: 5:30 PM
+End: 6:58 PM
+Time: 1hr 28 mins
+
 ---
 
 ## Day 2 — Schematic — COMPLETED ✅
@@ -59,6 +63,10 @@ The first design is still an initial schematic. The exact ESP32 board, module fo
 
 ### Next Step
 **Start Day 3 — PCB Design.**
+
+Start: 09:00 AM
+End: 11:00 AM
+Time: 2hrs
 
 ---
 
