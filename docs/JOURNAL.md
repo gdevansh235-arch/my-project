@@ -34,10 +34,10 @@ I am still learning KiCad and electronics, so I had to understand the basic work
 
 ---
 
-## Day 2 — Schematic
+## Day 2 — Schematic — COMPLETED ✅
 
 ### What I did
-* Started the Plant Monitor schematic in KiCad.
+* Completed the initial Plant Monitor schematic in KiCad.
 * Added the ESP32, BME280, OLED, soil-moisture sensor and two status LEDs.
 * Planned the I²C bus for the BME280 and OLED.
 * Planned GPIO34 as the analog input for the soil-moisture sensor.
@@ -54,41 +54,28 @@ I am still learning KiCad and electronics, so I had to understand the basic work
 ### Problems / Challenges
 The first design is still an initial schematic. The exact ESP32 board, module footprints and final connector choices need to be verified before the PCB is considered final.
 
-### Next Steps
-* Verify the schematic in KiCad.
-* Assign and check footprints.
-* Move the design into the PCB Editor.
-* Begin PCB placement and routing.
+### Day 2 Status
+**Completed. ✅**
+
+### Next Step
+**Start Day 3 — PCB Design.**
 
 ---
 
-## Day 3 — PCB Design
+## Day 3 — PCB Design — NEXT ⏳
 
-### What I did
-* Started preparing the schematic for PCB layout.
-* Reviewed the components that will need footprints.
-* Planned a compact board layout around the ESP32.
-* Planned accessible connectors for the BME280, OLED and soil-moisture sensor.
-* Planned LED positions so the status indicators are easy to see.
-* Considered keeping power and ground routing short and reliable.
-* Checked that the PCB layout will leave suitable access for the ESP32 USB connection.
+### Planned Work
+* Start preparing the completed schematic for PCB layout.
+* Review and assign footprints for the components.
+* Plan a compact board layout around the ESP32.
+* Position accessible connectors for the BME280, OLED and soil-moisture sensor.
+* Place the status LEDs where they will be easy to see.
+* Check USB access for the ESP32.
+* Begin PCB placement and routing.
+* Run KiCad DRC after routing and fix errors.
 
-### What I learned
-* How schematic decisions affect PCB placement and routing.
-* Why footprints must match the physical components being used.
-* Why connectors should be positioned for easy access.
-* The importance of running DRC before manufacturing a PCB.
-
-### Problems / Challenges
-The PCB is not yet a manufacturing-ready design. The exact components and footprints still need to be verified, and the routing must be checked with KiCad's Design Rules Checker.
-
-### Next Steps
-* Finalize component footprints.
-* Complete the board outline and placement.
-* Route the connections.
-* Add a ground plane if appropriate.
-* Run DRC and fix any errors.
-* Continue firmware development and hardware testing.
+### Day 3 Status
+**Starting next. ⏳**
 
 ---
 
