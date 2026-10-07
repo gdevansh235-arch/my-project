@@ -1,14 +1,38 @@
-(kicad_sch
-	(version 20260306)
-	(generator "eeschema")
-	(generator_version "10.0")
-	(uuid e4a52325-bfa4-46b3-a771-5aaab8f3faa7)
-	(paper "A4")
-	(lib_symbols)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
-)
+# Schematic — Plant Monitor
+
+This folder contains the KiCad schematic for the Plant Monitor.
+
+## Purpose
+
+The schematic defines how the ESP32, sensors, OLED display, LEDs, and power connections are connected.
+
+## Planned Connections
+
+| Component            | Connection                   |
+| -------------------- | ---------------------------- |
+| BME280               | I²C                          |
+| OLED display         | I²C                          |
+| Soil-moisture sensor | Analog input, planned GPIO34 |
+| Green LED            | GPIO25 through a resistor    |
+| Red LED              | GPIO26 through a resistor    |
+| Sensors and display  | 3.3 V supply                 |
+| All components       | Common GND                   |
+
+The BME280 and OLED are planned to share the I²C bus using SDA and SCL.
+
+## Files
+
+* `PlantMonitor.kicad_sch` — KiCad schematic source file
+
+## Next Steps
+
+* Confirm the exact ESP32 board/module.
+* Finalize the sensor and connector choices.
+* Verify all pin connections.
+* Assign the correct footprints.
+* Run ERC and resolve any errors or warnings.
+* Export a schematic PDF for documentation.
+
+## Status
+
+**In progress.** The schematic is an initial design and must be checked in KiCad before it is treated as final.
