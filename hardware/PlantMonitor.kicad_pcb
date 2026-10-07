@@ -1,2 +1,32 @@
-(kicad_pcb (version 20260206) (generator "pcbnew") (generator_version "10.0")
-)
+PCB Layout — Plant Monitor
+
+This folder is intended for the KiCad PCB layout files for the Plant Monitor.
+
+Goal
+
+The goal is to turn the circuit schematic into a custom PCB that connects the ESP32, sensors, OLED display, and status LEDs.
+
+Planned PCB Design Steps
+Import the finalized schematic into the PCB Editor.
+Update the PCB from the schematic.
+Define the board outline.
+Arrange components and connectors.
+Set the design rules and track widths.
+Route the electrical connections.
+Add a ground plane if appropriate.
+Run the Design Rules Checker (DRC).
+Review the board before manufacturing.
+Planned Layout Considerations
+Keep sensor and display connections accessible.
+Place connectors so external modules can be connected easily.
+Keep power and ground routing reliable.
+Ensure the selected footprints match the actual components.
+Provide suitable mounting and USB access for the chosen ESP32 development-board arrangement.
+Files
+
+The following file will be added when PCB layout begins:
+
+PlantMonitor.kicad_pcb — KiCad PCB layout
+Status
+
+Not finalized yet. The PCB layout will be created after the schematic, component choices, and footprints have been verifie
