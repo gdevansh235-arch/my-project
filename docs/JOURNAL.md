@@ -120,7 +120,8 @@ The final DRC showed only one remaining warning: a library footprint mismatch fo
 
 **Continue refining the KiCad design and check component details.**
 
-Start: 03:00 PM End: 5:00 PM  
+Start: 03:00 PM 
+End: 5:00 PM  
 Time: 2hrs
 
 ---
@@ -153,6 +154,10 @@ I needed help locating the Edge.Cuts layer and rectangle tool in KiCad. I also n
 - Verify the component footprints and ESP32 connections.
 - Save a backup before making significant changes.
 - Record the actual work-session time and keep screenshots of progress.
+-
+Start: 5:30 PM  
+End: 7:00 PM  
+Time: 1hr 30 mins
 
 ---
 
@@ -184,6 +189,10 @@ I needed guidance identifying pin numbers and distinguishing power pins, GPIO pi
 - Run the electrical rules check (ERC) and design rules check (DRC) after the design changes.
 - Save screenshots of the completed checks and record the actual work-session time.
 - Continue preparing the bill of materials (BOM) and project documentation.
+-
+Start: 5:00 PM  
+End: 7:30 PM  
+Time: 1hr 30 mins
 
 ---
 
