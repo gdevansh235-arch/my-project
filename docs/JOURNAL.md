@@ -79,82 +79,70 @@ Time: 3hrs 57mins
 
 ---
 
-## Day 3 — PCB Design — COMPLETED ✅
+## Day 3 — PCB Design and Refining the KiCad Design — COMPLETED ✅
 
 ### What I did
 
 - Prepared the completed schematic for PCB layout in KiCad.
-- Assigned footprints for all components.
-- Placed the components on the PCB and created the board outline using Edge.Cuts.
-- Planned the board layout around the ESP32 and positioned the connectors and LEDs.
-- Routed the PCB connections.
-- Corrected connectivity and routing issues found during PCB checking.
-- Ran KiCad DRC repeatedly while correcting the board.
-- Finalized the verified PCB as `PlantMonitor_Day3_corrected_only_v14_regenerated.kicad_pcb`.
+- Assigned footprints for the components and placed them on the PCB.
+- Created the board outline using the Edge.Cuts layer.
+- Positioned the ESP32, connectors and LEDs, then routed the PCB connections.
+- Worked on refining the KiCad design, including learning where to find Edge.Cuts and how to use the rectangle tool.
+- Reviewed component footprints, placement and the purpose of component pads.
+- Corrected connectivity and routing issues and ran KiCad's Design Rules Checker (DRC).
+- Saved the checked PCB as `PlantMonitor_Day3_corrected_only_v14_regenerated.kicad_pcb`.
 
 ### What I learned
 
-- How to assign and verify footprints in KiCad.
-- How PCB placement and routing affect connectivity and board layout.
-- How to use KiCad DRC to find and correct PCB design problems.
-- Why a verified PCB should not be changed unnecessarily after the electrical and routing checks are complete.
+- How component footprints connect the schematic design to the physical PCB.
+- How placement, routing and board outlines affect the PCB layout.
+- The Edge.Cuts layer defines the physical boundary of the board.
+- Component pads are conductive areas used to solder component leads or make electrical connections.
+- How DRC helps identify PCB design problems before fabrication.
 
 ### Problems / Challenges
 
-The PCB initially had several DRC and connectivity issues. I corrected the actual electrical and routing problems and reran DRC until there were no unconnected pads and no footprint errors.
+I needed help finding the Edge.Cuts layer and rectangle tool in KiCad, and understanding component pads. The PCB also had connectivity and DRC issues that needed checking and correction.
 
-The final DRC showed only one remaining warning: a library footprint mismatch for the ESP32-WROOM-32E footprint. This was left unchanged because the board was already verified and changing the footprint could destabilize the completed layout.
+The final DRC record showed no unconnected pads, no footprint errors and no actual electrical/routing errors, with one remaining ESP32-WROOM-32E library footprint mismatch warning. The exact footprint should still be verified before fabrication.
 
 ### Day 3 Status
 
-**Completed. ✅**
+**PCB design and KiCad refinement documented. ✅**
 
-### Final DRC Status
-
-- **0 unconnected pads**
-- **0 footprint errors**
-- **0 actual electrical/routing errors**
-- **1 remaining warning:** ESP32-WROOM-32E library footprint mismatch
-
-### Next Step
-
-**Continue refining the KiCad design and check component details.**
-
-Start: 03:00 PM 
+Start: 03:00 PM  
 End: 5:00 PM  
 Time: 2hrs
 
 ---
 
-## Day 4 — Refining the KiCad Design
+## Day 4 — Bill of Materials (BOM)
 
 ### What I did
 
-- Continued working in KiCad on the Plant Monitor hardware design.
-- Reviewed the LED components and their footprints.
-- Worked on the PCB outline and learned to find the Edge.Cuts layer.
-- Practised using the rectangle tool to draw the board outline.
-- Reviewed the placement of components and the purpose of component pads.
-- Continued checking the design before making further changes.
+- Worked on preparing the bill of materials for the ESP32 Plant Monitor project.
+- Identified the main parts required by the design: ESP32, BME280 sensor, I²C OLED display, soil-moisture sensor, green LED, red LED and supporting resistors/connectors.
+- Considered recording each component's name, quantity, footprint or module type, and sourcing details in the BOM.
+- Reviewed why the BOM should match the schematic and PCB design.
 
 ### What I learned
 
-- The Edge.Cuts layer defines the physical boundary of a PCB.
-- The rectangle tool can be used to draw a simple board outline on the correct layer.
-- Component pads are the conductive areas used to solder component leads or make electrical connections.
-- Footprints and board outlines must be checked carefully before fabrication.
+- A bill of materials lists the parts needed to assemble a project.
+- A useful BOM includes component descriptions, quantities and part or supplier details where available.
+- The BOM must match the latest schematic and PCB so that parts are not missed or ordered incorrectly.
+- Checking component availability and specifications before ordering helps avoid substitutions that do not fit the design.
 
 ### Problems / Challenges
 
-I needed help locating the Edge.Cuts layer and rectangle tool in KiCad. I also needed to understand what component pads are and how to work safely without accidentally changing a previously checked layout.
+The component list and exact part numbers, footprints and supplier details need to be checked against the final design before ordering. The BOM should not be treated as final until these details are verified.
 
 ### Next Steps
 
-- Continue the PCB work using the correct layers and tools.
-- Verify the component footprints and ESP32 connections.
-- Save a backup before making significant changes.
-- Record the actual work-session time and keep screenshots of progress.
--
+- Check the BOM against the schematic and PCB.
+- Confirm exact part numbers, quantities and connector types.
+- Research vendors and compare availability and prices.
+- Save the BOM in the project repository and keep it updated when the design changes.
+
 Start: 5:30 PM  
 End: 7:00 PM  
 Time: 1hr 30 mins
