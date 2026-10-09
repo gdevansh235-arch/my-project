@@ -36,8 +36,8 @@ I am still learning KiCad and electronics, so I had to understand the basic work
 - Check the power and I²C connections.
 - Start planning the firmware.
 
-Start: 5:30 PM 
-End: 6:58 PM 
+Start: 5:30 PM  
+End: 6:58 PM  
 Time: 1hr 28 mins
 
 ---
@@ -72,8 +72,9 @@ The first design is still an initial schematic. The exact ESP32 board, module fo
 ### Next Step
 
 **Start Day 3 — PCB Design.**
-Start: 09:00 AM End: 11:00 AM
-Start: 03:30 PM End: 5:27 PM
+
+Start: 09:00 AM End: 11:00 AM  
+Start: 03:30 PM End: 5:27 PM  
 Time: 3hrs 57mins
 
 ---
@@ -117,51 +118,72 @@ The final DRC showed only one remaining warning: a library footprint mismatch fo
 
 ### Next Step
 
-**Start Day 4 — BOM and vendor research.**
+**Continue refining the KiCad design and check component details.**
 
-
-Start: 03:00 PM End: 5:00 PM
+Start: 03:00 PM End: 5:00 PM  
 Time: 2hrs
 
 ---
 
-## Day 4 — Refining the Design
+## Day 4 — Refining the KiCad Design
 
 ### What I did
 
--
+- Continued working in KiCad on the Plant Monitor hardware design.
+- Reviewed the LED components and their footprints.
+- Worked on the PCB outline and learned to find the Edge.Cuts layer.
+- Practised using the rectangle tool to draw the board outline.
+- Reviewed the placement of components and the purpose of component pads.
+- Continued checking the design before making further changes.
 
 ### What I learned
 
--
+- The Edge.Cuts layer defines the physical boundary of a PCB.
+- The rectangle tool can be used to draw a simple board outline on the correct layer.
+- Component pads are the conductive areas used to solder component leads or make electrical connections.
+- Footprints and board outlines must be checked carefully before fabrication.
 
 ### Problems / Challenges
 
--
+I needed help locating the Edge.Cuts layer and rectangle tool in KiCad. I also needed to understand what component pads are and how to work safely without accidentally changing a previously checked layout.
 
 ### Next Steps
 
--
+- Continue the PCB work using the correct layers and tools.
+- Verify the component footprints and ESP32 connections.
+- Save a backup before making significant changes.
+- Record the actual work-session time and keep screenshots of progress.
 
 ---
 
-## Day 5 — Testing
+## Day 5 — Component Pins and Connection Review
 
 ### What I did
 
--
+- Continued learning the ESP32 pin layout for the Plant Monitor project.
+- Reviewed the meaning of the ESP32 3.3 V pin and its role in powering compatible components.
+- Asked for help identifying pin numbers and understanding the connections.
+- Reviewed how component pins and PCB pads relate to the schematic.
+- Planned to check the sensor, display, LED, power and ground connections before treating the design as ready for fabrication.
 
 ### What I learned
 
--
+- ESP32 pin numbers and GPIO names must be checked against the exact board or module being used.
+- The 3.3 V pin is a power connection, not a general-purpose GPIO pin.
+- A component's pad is the physical PCB connection point; its pin number links it to the component symbol and footprint.
+- The schematic, footprints and PCB layout must agree before the board can be considered ready.
 
 ### Problems / Challenges
 
--
+I needed guidance identifying pin numbers and distinguishing power pins, GPIO pins and component pads. The exact ESP32 board and its footprint still need to be checked carefully before manufacturing.
 
 ### Next Steps
 
--
+- Verify the ESP32 model and pinout against its documentation.
+- Check every schematic-to-footprint connection.
+- Run the electrical rules check (ERC) and design rules check (DRC) after the design changes.
+- Save screenshots of the completed checks and record the actual work-session time.
+- Continue preparing the bill of materials (BOM) and project documentation.
 
 ---
 
