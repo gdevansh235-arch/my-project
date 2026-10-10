@@ -171,7 +171,10 @@ Placement needs to be checked against the exact component footprints and board o
 - Add a ground plane.
 - Check clearances and run the KiCad Design Rules Checker (DRC).
 
-Time: Not recorded
+Start: 10:00 AM End: 12:00 PM  
+
+Time: 2hrs
+
 ---
 
 ## Day 6 — PCB Routing and Design Checks
@@ -201,7 +204,10 @@ Routing and ground-plane setup require careful checking to ensure tracks connect
 - Confirm the ESP32 footprint, connector footprints and ground-plane connection.
 - Save the final PCB and export fabrication files only after the design has been verified.
 
-Time: Not recorded
+Start: 09:00 AM 
+End: 11:00 AM  
+Time: 2hrs
+
 ---
 
 ## Day 7 — Shipping
