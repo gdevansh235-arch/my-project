@@ -83,37 +83,30 @@ Time: 3hrs 57mins
 
 ### What I did
 
-- Prepared the completed schematic for PCB layout in KiCad.
-- Assigned footprints for the components and placed them on the PCB.
-- Created the board outline using the Edge.Cuts layer.
-- Positioned the ESP32, connectors and LEDs, then routed the PCB connections.
-- Worked on refining the KiCad design, including learning where to find Edge.Cuts and how to use the rectangle tool.
-- Reviewed component footprints, placement and the purpose of component pads.
-- Corrected connectivity and routing issues and ran KiCad's Design Rules Checker (DRC).
-- Saved the checked PCB as `PlantMonitor_Day3_corrected_only_v14_regenerated.kicad_pcb`.
+- Started preparing the schematic for PCB design in KiCad.
+- Reviewed component footprints and began arranging the design for the PCB stage.
+- Explored the Edge.Cuts layer and learned how to use the rectangle tool for a board outline.
+- Reviewed component placement and learned what component pads are used for.
+- Saved and reviewed the PCB design file: PlantMonitor_Day3_corrected_only_v14_regenerated.kicad_pcb.
 
 ### What I learned
 
-- How component footprints connect the schematic design to the physical PCB.
-- How placement, routing and board outlines affect the PCB layout.
+- Component footprints represent physical parts and their pads on a PCB.
 - The Edge.Cuts layer defines the physical boundary of the board.
-- Component pads are conductive areas used to solder component leads or make electrical connections.
-- How DRC helps identify PCB design problems before fabrication.
+- Component placement needs to allow room for connectors and later routing.
+- KiCad design checks help identify issues to review before fabrication.
 
 ### Problems / Challenges
 
-I needed help finding the Edge.Cuts layer and rectangle tool in KiCad, and understanding component pads. The PCB also had connectivity and DRC issues that needed checking and correction.
-
-The final DRC record showed no unconnected pads, no footprint errors and no actual electrical/routing errors, with one remaining ESP32-WROOM-32E library footprint mismatch warning. The exact footprint should still be verified before fabrication.
+I needed help finding the Edge.Cuts layer and rectangle tool and understanding component pads. The exact ESP32 footprint and module details still need to be verified before fabrication.
 
 ### Day 3 Status
 
-**PCB design and KiCad refinement documented. ✅**
+**Initial PCB design and KiCad refinement documented. ✅**
 
 Start: 03:00 PM  
 End: 5:00 PM  
 Time: 2hrs
-
 ---
 
 ## Day 4 — Bill of Materials (BOM)
@@ -149,59 +142,66 @@ Time: 1hr 30 mins
 
 ---
 
-## Day 5 — Component Pins and Connection Review
+## Day 5 — PCB Layout
 
 ### What I did
 
-- Continued learning the ESP32 pin layout for the Plant Monitor project.
-- Reviewed the meaning of the ESP32 3.3 V pin and its role in powering compatible components.
-- Asked for help identifying pin numbers and understanding the connections.
-- Reviewed how component pins and PCB pads relate to the schematic.
-- Planned to check the sensor, display, LED, power and ground connections before treating the design as ready for fabrication.
+- Created or refined the PCB board outline in KiCad.
+- Placed the ESP32 on the board.
+- Planned the USB-C connector placement.
+- Placed the sensor and other connectors.
+- Arranged the OLED connector.
+- Positioned the green and red LEDs.
+- Reviewed component spacing and placement before routing.
 
 ### What I learned
 
-- ESP32 pin numbers and GPIO names must be checked against the exact board or module being used.
-- The 3.3 V pin is a power connection, not a general-purpose GPIO pin.
-- A component's pad is the physical PCB connection point; its pin number links it to the component symbol and footprint.
-- The schematic, footprints and PCB layout must agree before the board can be considered ready.
+- The board outline sets the physical size and shape of the PCB.
+- Component placement affects usability, connector access and how easily tracks can be routed.
+- USB-C, sensor and OLED connectors need suitable positions and clearances.
+- Components should be placed to make the later routing stage manageable.
 
 ### Problems / Challenges
 
-I needed guidance identifying pin numbers and distinguishing power pins, GPIO pins and component pads. The exact ESP32 board and its footprint still need to be checked carefully before manufacturing.
+Placement needs to be checked against the exact component footprints and board outline. Connector access, spacing and the ESP32 footprint should be verified before routing or fabrication.
 
 ### Next Steps
 
-- Verify the ESP32 model and pinout against its documentation.
-- Check every schematic-to-footprint connection.
-- Run the electrical rules check (ERC) and design rules check (DRC) after the design changes.
-- Save screenshots of the completed checks and record the actual work-session time.
-- Continue preparing the bill of materials (BOM) and project documentation.
--
-Start: 5:00 PM  
-End: 7:30 PM  
-Time: 1hr 30 mins
+- Route power and signal connections.
+- Add a ground plane.
+- Check clearances and run the KiCad Design Rules Checker (DRC).
 
+Time: Not recorded
 ---
 
-## Day 6 — Final Improvements
+## Day 6 — PCB Routing and Design Checks
 
 ### What I did
 
--
+- Worked on routing the PCB power connections.
+- Routed signal connections between the ESP32, sensors, OLED connector, LEDs and other connectors as required by the design.
+- Added a ground plane to provide a common ground return.
+- Checked track and copper clearances.
+- Ran KiCad's Design Rules Checker (DRC) to review potential PCB layout issues.
 
 ### What I learned
 
--
+- Power and signal tracks must connect the correct pads according to the schematic.
+- A ground plane can provide a common ground connection when assigned and connected correctly.
+- Clearances between tracks, pads, copper zones and the board edge must meet design and fabrication requirements.
+- DRC helps identify layout issues, but its results must be reviewed before fabrication.
 
 ### Problems / Challenges
 
--
+Routing and ground-plane setup require careful checking to ensure tracks connect to the intended pads and the copper zone is assigned to the correct ground net. Any DRC warnings or errors should be reviewed rather than assumed to be resolved.
 
 ### Next Steps
 
--
+- Review the DRC report and address remaining errors or warnings.
+- Confirm the ESP32 footprint, connector footprints and ground-plane connection.
+- Save the final PCB and export fabrication files only after the design has been verified.
 
+Time: Not recorded
 ---
 
 ## Day 7 — Shipping
