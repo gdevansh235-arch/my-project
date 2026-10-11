@@ -1,4 +1,3 @@
-[Fabricatin Files.zip](https://github.com/user-attachments/files/33303462/Fabricatin.Files.zip)
 
 # 🌱 Plant Monitor
 
