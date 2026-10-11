@@ -40,3 +40,4 @@ The pin plan is an initial design and must be checked against the exact ESP32 de
 - `docs/` — project documentation and journal
 - `hardware/` — KiCad schematic and PCB files
 - `firmware/` — ESP32 firmware
+<img width="993" height="907" alt="image" src="https://github.com/user-attachments/assets/0c9dcf00-9a5d-4594-9901-9f51675ddd68" />
