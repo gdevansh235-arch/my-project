@@ -210,24 +210,32 @@ Time: 2hrs
 
 ---
 
-## Day 7 — Shipping
+## Day 7 — Final Review and Shipping Preparation
 
 ### What I did
 
--
+- Reviewed the progress recorded for Days 1–6 of the Plant Monitor PCB project.
+- Listed the remaining checks needed before calling the PCB design final, including confirming component footprints and reviewing any KiCad DRC warnings.
+- Organized the Day 7 journal entry around the Half Life shipping requirements.
+- Identified the evidence and project files that should be included in the public GitHub repository, such as genuine screenshots, the README, KiCad source files and BOM.
 
 ### Final Result
 
--
+The Day 7 journal and remaining shipping checklist are documented. The project should only be marked as shipped after the repository contents and required evidence have been checked and the design submission is actually complete.
 
 ### What I Learned
 
--
+- Shipping a hardware project means making the design understandable and reproducible by someone else.
+- Screenshots, a clear README, editable design files and a BOM help reviewers understand and inspect the project.
+- Design checks and required submission evidence must be verified rather than assumed complete.
 
 ### What I Would Improve
 
--
+- Verify the exact ESP32 and connector footprints.
+- Review and resolve applicable ERC/DRC issues before fabrication.
+- Add genuine screenshots and ensure the README, KiCad files and BOM are present and consistent.
+- Complete the required submission evidence before marking the project as shipped.
 
 ### Project Status
 
-**Completed and shipped! 🚀**
+**Shipping preparation documented — final submission still needs verification.**
