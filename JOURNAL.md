@@ -4,7 +4,7 @@
 <!-- Generated: 2026-10-10T11:02:52.342Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuvarcj60fst01smakmrln70). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
 > The device will monitor a plant and show: * 💧 Soil moisture — Is the soil dry or wet? * 🌡️ Temperature * 💦 Humidity * 🖥️ OLED display — Shows the readings * 🔴🟢 LED indicator — Shows whether the plant needs water
 
