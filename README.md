@@ -1,3 +1,4 @@
+[PlantMonitor_BOM.csv](https://github.com/user-attachments/files/33875857/PlantMonitor_BOM.csv)
 <img width="514" height="576" alt="image" src="https://github.com/user-attachments/assets/28fcc46b-5e0e-475d-93ea-a988f83268d4" />
 
 
