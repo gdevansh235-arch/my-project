@@ -2,7 +2,6 @@
 <img width="514" height="576" alt="image" src="https://github.com/user-attachments/assets/28fcc46b-5e0e-475d-93ea-a988f83268d4" />
 
 
-<img width="750" height="600" alt="image" src="https://github.com/user-attachments/assets/907ecbb3-a756-4081-aa83-dda7d5e25c7b" />
 
 # 🌱 Plant Monitor
 
